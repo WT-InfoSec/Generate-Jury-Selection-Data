@@ -26,7 +26,7 @@ def createCandidateProfiles():
 		exemptList = getExemptList(age)
 		checkedIn = "True"
 		output += formatCandidateProfile(number, name, age, address,
-										 exemptList, checkedIn)
+						 exemptList, checkedIn)
 	return output
 
 
@@ -34,7 +34,7 @@ def formatCandidateProfile(candidateNumber, name, age,
 						   address, exemptList, checkedIn):
 	canID = "j"+str(candidateNumber)
 	return "%s, %s, %s, %s, %s, %s\n" % (canID, name, str(age), 
-										 address, exemptList, checkedIn)
+					     address, exemptList, checkedIn)
 
 
 def createCandidateList():
