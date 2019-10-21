@@ -31,7 +31,7 @@ def createCandidateProfiles():
 
 
 def formatCandidateProfile(candidateNumber, name, age, 
-						   address, exemptList, checkedIn):
+			   address, exemptList, checkedIn):
 	canID = "j"+str(candidateNumber)
 	return "%s, %s, %s, %s, %s, %s\n" % (canID, name, str(age), 
 					     address, exemptList, checkedIn)
